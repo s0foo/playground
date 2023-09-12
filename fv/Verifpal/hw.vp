@@ -1,0 +1,14 @@
+attacker[passive]
+
+principal Alice[
+	generates a
+]
+
+principal Bob[
+]
+
+Alice -> Bob: a
+
+queries[
+	confidentiality? a
+]
